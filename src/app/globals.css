@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root{
+  --lm-blue: #0079FF;
+  --lm-gray: #697C9A;
+  --lm-blue-gray: #4B6A9B;
+  --lm-dark-blue: #2B3442;
+  --lm-dark-white: #F6F8FF;
+  --lm-white: #FEFEFE;
+  --my-font: "Space Mono", monospace;
+  --redly: #F74646;
+}
+html,
+body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 62.5%;
+  background-color: var(--lm-dark-white);
+  font-family: var(--my-font);
+}
+.app{
+  width: 73rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 14rem;
+}
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.6rem;
+}
+.logo{
+  cursor: pointer;
+}
+.mode-btn{
+  display: flex;
+  justify-content: space-between;
+  gap: 1.6rem;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.mode-btn:hover{
+  opacity: 1;
+}
+.mode-btn p{
+  color: var(--lm-dark-blue);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+.search{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+  padding: 1rem 1rem 1rem 3.2rem;
+  background-color: var(--lm-white);
+  border-radius: 15px;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+  font-family: var(--my-font);
+}
+.search input{
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.6px;
+  color: #222731;
+}
+.search input::placeholder{
+  color: #4B6A9B;
+}
+.search form{
+  width: 100%;
+  display: flex;
+  gap: 2.4rem;
+}
+.search p{
+  width: 13rem;
+  color: var(--redly);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.search button{
+  width: 10.6rem;
+  height: 5rem;
+  border-radius: 1rem;
+  background-color: var(--lm-blue);
+  border: none;
+  color: #FFF;
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+
+.hidden{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
